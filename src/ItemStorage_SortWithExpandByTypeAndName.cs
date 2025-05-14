@@ -44,6 +44,7 @@ namespace SortExcess
                 .MatchEndForward(
                     new CodeMatch(OpCodes.Callvirt, AccessTools.PropertyGetter(typeof(List<BasePickupItem>), nameof(List<BasePickupItem>.Clear))
                 ))
+                .ThrowIfNotMatch("Did not find the list of items.")
                 .MatchEndForward(
                     new CodeMatch(OpCodes.Newobj, AccessTools.Constructor(typeof(List<BasePickupItem>))),
                     new CodeMatch(OpCodes.Stloc_S)
