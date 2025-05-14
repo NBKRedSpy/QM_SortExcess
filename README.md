@@ -6,6 +6,8 @@ Scrolling through multiple pages of the same item just to find the 3rd item in t
 
 This mod changes the sort so that each item type will have a maximum of eight slots filled at the top of inventory screen, and then the rest will be put at the bottom.
 
+The number of slots can be configured.  See the [Configuration section](#configuration).
+
 # Requirements
 Requires the Improved Item Sort mod.  
 On Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3287329716&searchtext=sort
