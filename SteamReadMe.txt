@@ -3,10 +3,7 @@
 
 Scrolling through multiple pages of the same item just to find the 3rd item in the list?
 
-This mod changes the sort to put a maximum of 8 items at the top of the list and the remainder of the items at the bottom of the list.
-The amount can be changed in the configuration.
-
-After using the items at the top of the list, run the sort to bring more of that item back to the top.
+This mod changes the sort so that each item type will have a maximum of eight slots filled at the top of inventory screen, and then the rest will be put at the bottom.
 
 [h1]Requirements[/h1]
 
