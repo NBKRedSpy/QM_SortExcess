@@ -1,0 +1,7 @@
+{
+  "UniqueModName": "NBKRedSpy_SortExcess",
+  "Assemblies": [
+    "SortExcess.dll"
+  ],
+  "Dependencies": ["QM_ImprovedSort"]
+}
