@@ -9,6 +9,11 @@ The amount can be changed in the configuration.
 
 After using the items at the top of the list, run the sort to bring more of that item back to the top.
 
+# Requirements
+Requires the Improved Item Sort mod.  
+On Steam: https://steamcommunity.com/sharedfiles/filedetails/?id=3287329716&searchtext=sort
+On GitHub: https://github.com/NBKRedSpy/QM_ImprovedSort
+
 # Configuration
 
 The configuration file will be created on the first game run and can be found at `%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\SortExcess\config.json`.
