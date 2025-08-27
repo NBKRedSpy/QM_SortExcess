@@ -20,6 +20,8 @@ namespace SortExcess
 
         public static Logger Logger = new Logger();
 
+        private static McmConfiguration McmConfiguration { get; set; }
+
         [Hook(ModHookType.AfterConfigsLoaded)]
         public static void AfterConfig(IModContext context)
         {
@@ -27,6 +29,9 @@ namespace SortExcess
             Directory.CreateDirectory(ConfigDirectories.ModPersistenceFolder);
 
             Config = ModConfig.LoadConfig(ConfigDirectories.ConfigPath);
+
+            McmConfiguration = new McmConfiguration(Config);
+            McmConfiguration.TryConfigure();
 
             new Harmony("NBKRedSpy_" + ConfigDirectories.ModAssemblyName).PatchAll();
         }

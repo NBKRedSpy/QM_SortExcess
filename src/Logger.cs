@@ -47,9 +47,9 @@ namespace SortExcess
             Debug.LogError($"[{LogPrefix}] {message}");
         }
 
-        public void LogException(Exception ex)
+        public void LogError(Exception ex, string message)
         {
-            Debug.LogError($"[{LogPrefix}] Exception Logged:");
+            Debug.LogError($"[{LogPrefix}] {message}:");
             Debug.LogException(ex);
         }
     }

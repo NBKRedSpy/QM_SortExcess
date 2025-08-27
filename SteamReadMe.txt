@@ -15,6 +15,8 @@ On GitHub: https://github.com/NBKRedSpy/QM_ImprovedSort
 
 [h1]Configuration[/h1]
 
+This mod supports MCM, which adds a Mod button on the main menu.  The settings can be changed there or directly in the config file covered below.
+
 The configuration file will be created on the first game run and can be found at [i]%AppData%\..\LocalLow\Magnum Scriptum Ltd\Quasimorph_ModConfigs\SortExcess\config.json[/i].
 [table]
 [tr]
@@ -40,6 +42,17 @@ The configuration file will be created on the first game run and can be found at
 If you enjoy my mods and want to buy me a coffee, check out my [url=https://ko-fi.com/nbkredspy71915]Ko-Fi[/url] page.
 Thanks!
 
+[h1]Credits[/h1]
+
+Special thanks to Crynano for his excellent Mod Configuration Menu.
+
 [h1]Source Code[/h1]
 
 Source code is available on GitHub at https://github.com/NBKRedSpy/QM_SortExcess
+
+[h1]Change Log[/h1]
+
+[h1]1.1.0[/h1]
+[list]
+[*]Added MCM integration.
+[/list]
