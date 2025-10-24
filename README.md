@@ -35,5 +35,9 @@ Source code is available on GitHub at https://github.com/NBKRedSpy/QM_SortExcess
 
 # Change Log
 
+# 1.1.1
+* Fixed mod not loading.  Improved Sort dependency name had changed.
+* Thanks to Discord user @Haydern for reporting the issue.
+
 # 1.1.0
 * Added MCM integration.

@@ -3,5 +3,5 @@
   "Assemblies": [
     "SortExcess.dll"
   ],
-  "Dependencies": ["QM_ImprovedSort"]
+  "Dependencies": ["NBKRedSpy_ImprovedSort"]
 }
